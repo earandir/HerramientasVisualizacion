@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>UNIR - Herramientas de visualización</title>
+    <script type="text/javascript" src="https://d3js.org/d3.v6.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-light shadow">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="https://www.unir.net/wp-content/uploads/2019/11/Unir_2021_logo.svg"
+              alt="Bootstrap"
+              width="180"
+              height="120"
+            />
+          </a>
+          <h1>Herramientas de Visualización</h1>
+        </div>
+      </nav>
+    </header>
+    <main class="container-fluid pt-5">
+      <h2>Actividad Grupal: Análisis de tendencias</h2>
+    </main>
+
+    <div id="root">
+      <div id="options">
+        <label>
+          <input name="radio" type="radio" onclick="appendData(1)"/>
+            Producto Interno Bruto
+        </label>
+        <label>
+            <input name="radio" type="radio" onclick="appendData(2)" />
+            Inflación Anual
+        </label>
+        <label>
+            <input name="radio" type="radio" checked onclick="appendData(3)" />
+            Inflación Mensual
+        </label>
+        <label>
+          <input name="radio" type="radio" checked onclick="appendData(4)" />
+          Tasa de desempleo
+      </label>
+      </div>
+      <div>&nbsp;</div>
+    </div>
+    <script src="js/app.js" type="text/javascript"></script>
+  </body>
+</html>
