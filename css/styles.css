@@ -1,0 +1,59 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: Helvetica;
+  background: #ffffff;
+  color: rgb(7, 7, 7);
+}
+
+#root {
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+svg {
+  text-align: center;
+}
+  
+text {
+  font-family: Helvetica;
+  font-size: 18px;
+  fill: rgb(65, 65, 65);
+}
+
+text.title {
+  font-size: 22px;
+  fill: rgb(8, 12, 65);
+}
+
+.subtitle text {
+  font-size: 12px;
+  text-decoration: underline;
+  fill: rgb(41, 41, 41);
+}
+
+path.line {
+  fill: none;
+  stroke: rgba(0, 0, 255, 0.534);
+  stroke-width: 3px;
+}
+
+path.area {
+  fill: rgb(78, 78, 255);
+  opacity: 0.2;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: slategray;
+  shape-rendering: crispEdges;
+}
+
+line.x,
+line.y,
+circle.y {
+  stroke: rgb(216, 4, 4);
+}
